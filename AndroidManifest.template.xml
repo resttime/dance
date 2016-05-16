@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="org.test"
+          android:versionCode="{{version-code}}"
+          android:versionName="{{version-name}}" >
+
+  <uses-sdk android:minSdkVersion="15"
+            android:targetSdkVersion="{{target-version}}" />
+  
+  <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+
+  <application
+      android:name="neko.App"
+      android:icon="@drawable/ic_launcher"
+      android:label="Dance">
+    <activity android:name=".SplashActivity"
+              android:theme="@android:style/Theme.Translucent.NoTitleBar">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+    <activity android:name=".MainActivity">
+      <intent-filter>
+        <action android:name='org.test.MAIN'/>
+        <category android:name='android.intent.category.DEFAULT'/>
+      </intent-filter>
+    </activity>
+  </application>
+  
+  {{#debug-build}}
+  <uses-permission android:name="android.permission.INTERNET"/>
+  {{/debug-build}}
+</manifest>
