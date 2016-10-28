@@ -1,20 +1,17 @@
-# Dance.gif
+# ![Dance.gif](/res/drawable/ppd.gif)
 
-## Builds
+Fun Android application written in pure Clojure.
 
-Debug
+# Builds
+
+#Debug
 
 lean droid doall
 
-Relase
+#Release
 
 lein with-profile release droid doall
 
-Skummet Release
+#Skummet Release
 
 lein with-profile lean do clean, droid doall
-
-## License
-
-Copyright © 2016
-Distributed under the Cool License
