@@ -1,8 +1,8 @@
-![Dance.gif](/res/drawable/ppd.gif)
+![Dance.gif](http://i.imgur.com/fl4YBzC.jpg)
 
 #About
 
-Android application written in pure Clojure for fun.
+Android application written in pure Clojure for fun.  Flashes colors, plays music loudly, and includes a music visualizer.
 
 #Builds
 
