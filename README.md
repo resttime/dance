@@ -1,8 +1,14 @@
-![Dance.gif](http://i.imgur.com/fl4YBzC.jpg)
+![Dance.gif](http://i.imgur.com/QluBiYh.jpg)
 
 #About
 
-Android application written in pure Clojure for fun.  Flashes colors, plays music loudly, and includes a music visualizer.
+Android application written in pure Clojure for fun.  
+
+#Features 
+* Flashy colors 
+* Play loud music loud
+* Music visualizer
+* Rotatable dance animation
 
 #Builds
 
