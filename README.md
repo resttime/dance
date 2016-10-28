@@ -8,7 +8,7 @@ Android application written in pure Clojure for fun.
 * Flashy colors 
 * Play loud music loud
 * Music visualizer
-* Rotatable dance animation
+* Dance animation
 
 #Builds
 
